@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+      main {
+        background-color: whitesmoke;
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-rows:43.8vw;  */
+        grid-template-areas: "aa bb";
+      }
+      .fstcon {
+        /* background-color: blue; */
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        font-size: 40px;
+        padding-left: 90px;
+      }
+      .seccon {
+        /* background-color: black; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        width: 400px;
+        height: 400px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+      }
+      input {
+        display: flex;
+        flex-direction: column;
+        margin: 22px;
+        padding: 15px;
+        width: 370px;
+        border-radius: 10px;
+        color: white;
+        border-color: lightgray;
+      }
+      button {
+        margin: 10px;
+        padding: 20px;
+        /* width: 400px; */
+        border-radius: 10px;
+        background-color: rgb(9, 167, 56);
+        width: 270px;
+        color: white;
+        font-size: 23px;
+        font-weight: bolder;
+        border: none;
+        cursor: pointer;
+      }
+      hr {
+        color: black;
+        width: 360px;
+        margin: 10px;
+      }
+      .hr{
+        color: black;
+        width: 1400px;
+        margin: 10px;
+      }
+      ::placeholder {
+        font-size: 22px;
+      }
+      a {
+        text-decoration: none;
+        margin: 10px;
+      }
+      footer {
+        width: 100vw;
+        height: 25vh;
+        background-color: rgb(204, 197, 197);
+        padding: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="fstcon">
+        <div>
+          <img
+            src="/fa1a7df948fdb2d3682a50a1cfaf6109__1_-removebg-preview.png"
+            alt="fb"
+            style="width: 400px"
+          />
+          <p class=".para" style="padding-left: 28px; font-size: 27px">
+            Facebook helps you connect and share with the people in your life.
+          </p>
+        </div>
+      </section>
+
+      <section class="seccon">
+        <div class="form">
+          <form action="">
+            <input type="text" placeholder="Email address or phone number" />
+            <input type="password" placeholder="password" />
+            <input
+              type="button"
+              value="Log in"
+              style="
+                background-color: rgb(15, 77, 212);
+                cursor: pointer;
+                font-size: x-large;
+              "
+            />
+          </form>
+          <a href="#">Forgotten password?</a>
+          <hr />
+          <button>Create new account</button>
+        </div>
+        <div class="create">
+          <a href="">Create a Page</a
+          ><span> for a celebrity, brand or business.</span>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <span style="margin-left: 10px;">English (UK)</span> <a href="#">  Hausa</a> <a href="">  Français (France)</a><a href="">Português (Brasil)</a>  <a href="">Español العربية</a> <a href=""> Bahasa Indonesia</a> <a href="">Deutsch 日本語</a> <a href="">Italiano हिन्दी</a>
+      </div> 
+      
+      <hr class="hr">
+      <div>
+        <a href="">  Sign Up</a>  <a href="">  Log In</a> <a href=""> Messenger</a> <a href="">Facebook Lite</a> <a href="">Video</a>  <a href="">Places</a> <a href="">Games</a> <a href="">Marketplace</a> <a href="">Meta</a> <a href="">Pay</a> <a href="">Meta</a> <a href="">StoreMeta</a><a href="">Quest</a><a href=""> Meta AI</a><a href="">Instagram</a><a href="">Threads</a>
+      <br style="margin-bottom: 4px;">
+      </div>
+      <div>
+        <a href="">Fundraisers</a> <a href="">Services</a> <a href="">Voting</a> <a href="">Information</a>
+        <a href="">Centre</a><a href="">Privacy</a><a href="">PolicyPrivacy</a><a href=""> Centre</a><a href="">Groups</a>
+        <a href="">About</a><a href="">Create</a> <a href="">adCreate</a> <a href="">Page</a><a href="">Developers</a> <a href="">Careers</a> <a href="">Cookies</a> 
+        <br style="margin-bottom: 4px;">
+      </div>
+      <div>
+        <a href="">AdChoices</a> <a href="">Terms</a> <a href="">Help</a><a href="">Contact</a><a href="">uploading and
+            non-users</a>
+      </div>
+      
+      
+      <p style="margin-left: 10px;">log Meta © 2024</p>
+        
+        
+    </footer>
+  </body>
+</html>
